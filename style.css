@@ -1,0 +1,69 @@
+#mySketch {
+  background-color: #00bbd6;
+  height: 250px;
+  width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  padding: 20px;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  width: 800px;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.column {
+  margin: 30px;
+  width: 200px;
+  padding-left: 0;
+}
+
+ol {
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+footer>a {
+  padding: 10px;
+  width: 100px;
+  color: #515041;
+}
+
+footer>a:link {
+  text-decoration: none;
+}
+
+footer>a:visited {
+  text-decoration: none;
+}
+
+footer>a:hover {
+  text-decoration: underline;
+  color: #00bbd6;
+}
+
+footer>a:active {
+  text-decoration: underline;
+}
