@@ -1,13 +1,22 @@
-console.log('reading js');
+console.log('reading this js');
+
 
 function setup() {
-  // change size to createCanvas
-  // create a variable to reference the canvas
-  var myCanvas = createCanvas(800, 250);
-  // connect myCanvas to mySketch
-  myCanvas.parent('mySketch');
+    background('#fbc4b6');
+    var myCanvas = createCanvas(800, 250);
+    myCanvas.parent('mySketch');
+    noStroke();
 }
 
 function draw() {
-  ellipse(mouseX, mouseY, 50, 50);
+    // background('#FF0000');
+    //speed of the mouse is used to determine the thickness of ellipse
+    var weight = dist(mouseX, mouseY, pmouseX, pmouseY);
+    // fill('#00FF00');
+    ellipse(mouseX, mouseY, weight, weight);
+    if (mouseIsPressed) { //if mouse pressed then change colors
+        fill('#aed8d7');
+    } else {
+        fill('#eefdf5'); //else change to white
+    }
 }
