@@ -38,6 +38,7 @@ ol {
 }
 
 footer {
+  position: fixed;
   text-align: center;
   margin-top: 100px;
   display: flex;
