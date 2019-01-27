@@ -1,70 +1,80 @@
 #mySketch {
-  background-color: #00bbd6;
-  height: 250px;
-  width: 800px;
-  margin: auto;
-  text-align: center;
+    background-color: #00bbd6;
+    height: 250px;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+header {
+    margin: 30px;
+padding-bottom: 30px;
 }
 
-header {
-  text-align: center;
+h5{
+  text-align: left;
+margin-left: 17%;
+margin-bottom: auto;
+font-weight: lighter;
 }
 
 h1 {
-  font-size: 2.5em;
-  font-family: sans-serif;
-  letter-spacing: 3px;
-  padding: 20px;
+      text-align: center;
+    font-size: 2.5em;
+    /*font-family: sans-serif;*/
+    letter-spacing: 3px;
+    font-family: itc-flora, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+main {
+    display: flex;
+    width: 800px;
+    margin: auto;
+    justify-content: center;
 }
 
-.container {
-  margin: auto;
-  display: flex;
-  align-items: center;
-  width: 800px;
-  justify-content: center;
-  margin-bottom: 200px;
-}
-
-.column {
-  margin: 30px;
-  width: 200px;
-  padding-left: 0;
+main>section {
+    display: inline-block;
+    margin: auto;
+    margin-left: 60px;
+    width: 200px;
+    padding-left 0;
 }
 
 ol {
-  padding-left: 0;
-  list-style-position: inside;
+    padding-left: 0;
+    list-style-position: inside;
 }
 
 footer {
-  position: fixed;
-  text-align: center;
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-  background-color: #f2f2f2;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
 }
 
 footer>a {
-  padding: 10px;
-  width: 100px;
-  color: #515041;
+    padding: 10px;
+    width: 100px;
+    color: #515041;
 }
 
 footer>a:link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 footer>a:visited {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 footer>a:hover {
-  text-decoration: underline;
-  color: #00bbd6;
+    text-decoration: underline;
+    color: #00bbd6;
 }
 
 footer>a:active {
-  text-decoration: underline;
+    text-decoration: underline;
 }
