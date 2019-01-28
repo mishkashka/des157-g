@@ -1,0 +1,66 @@
+html {
+    font-family: Verdana, sans-serif;
+    background-color: #dab4b4;
+}
+
+header {
+    font-family: eds-market-bold, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 20px;
+}
+
+form {}
+
+fieldset {
+    background-color: #4e4a4a;
+    /*brown*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    grid-gap: 1%;
+    width: 30%;
+    padding: 1em;
+    border: 0;
+    /* remove default */
+    margin-bottom: 0;
+}
+
+label {
+    color: #dab4b4;
+    /*pink*/
+    padding: 1%;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+}
+
+footer>a {
+    padding: 5px;
+    width: 200px;
+    color: #515041;
+}
+
+footer>a:link {
+    text-decoration: none;
+}
+
+footer>a:visited {
+    text-decoration: none;
+}
+
+footer>a:hover {
+    text-decoration: underline;
+    color: #c5e0e0;
+}
+
+footer>a:active {
+    text-decoration: underline;
+}
