@@ -1,6 +1,4 @@
 console.log('reading this hehey js');
-
-
 function setup() {
     background('#fbc4b6');
     var myCanvas = createCanvas(800, 250);
