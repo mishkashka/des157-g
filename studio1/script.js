@@ -4,7 +4,7 @@ console.log('reading js');
 document.querySelector('#s').addEventListener('click', processForm);
 
 //define process function
-function processForm(evt){
+function processForm(evt) {
     var verbing = document.querySelector('#verbing').value;
     var noun1 = document.querySelector('#noun1').value;
     var noun2 = document.querySelector('#noun2').value;
