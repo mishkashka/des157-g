@@ -4,17 +4,40 @@ html {
 }
 
 header {
-  color: 	#71685e;
+    color: #71685e;
     font-family: eds-market-bold, sans-serif;
     font-weight: 400;
     font-size: 2em;
     font-style: normal;
     margin: 20px;
     letter-spacing: 5px;
+    text-align: center;
 }
 
-form {
-  }
+form {}
+
+img {
+    float: right;
+    margin-top: -60px;
+}
+
+section {
+    margin-left: 10%;
+    padding: 1em;
+    color: #71685e;
+}
+
+input[type="reset"], input[type="submit"] {
+    margin: 1em;
+    padding: .5em;
+    border-radius: 5px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+input[type="reset"], input[type="submit"]:visited {
+    text-decoration: none;
+}
 
 fieldset {
     background-color: #4e4a4a;
@@ -28,7 +51,6 @@ fieldset {
     border: 0;
     /* remove default */
     margin-left: 10%;
-
 }
 
 label {
@@ -36,9 +58,20 @@ label {
     /*pink*/
     padding: 1%;
 }
-input[type= "text"]{
 
+input[type="text"] {
+    border-radius: 5px;
 }
+
+#msgSection {
+  color: white;
+    width: 50%;
+    padding: 10em;
+    margin: 2% 12%;
+    border-radius: 30px;
+    background-color: lightblue;
+}
+
 footer {
     width: 100%;
     text-align: center;

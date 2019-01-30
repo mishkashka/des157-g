@@ -12,10 +12,11 @@ header {
 }
 
 h5 {
-    text-align: left;
-    margin-left: 17%;
+    text-align: center;
+    margin-left: -52%;
     margin-bottom: auto;
     font-weight: lighter;
+    padding: 2px;
 }
 
 h1 {
@@ -46,6 +47,19 @@ main>section {
 ol {
     padding-left: 0;
     list-style-position: inside;
+}
+
+li>a {
+    color: #515041;
+}
+
+li>a:visited {
+    text-decoration: none;
+}
+
+li>a:hover {
+    text-decoration: underline;
+    color: #00bbd6;
 }
 
 footer {
