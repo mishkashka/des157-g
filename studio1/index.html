@@ -46,37 +46,37 @@
                 <input type="text" name="name a profession" id="profession" required>
             </fieldset>
             <!-- list coffee types -->
-            <fieldset id="kind">
+            <fieldset>
                 <label for="kind">choose your coffee drink </label>
 
-                    <input name="kind" type="radio" value="cappuccino" required>
-                    <label>cappuccino</label>
-                    <br>
+                <input name="kind" type="radio" value="cappuccino" id="kind" required>
+                <label>cappuccino</label>
+                <br>
 
-                    <input name="kind" type="radio" value="mocha" required>
-                    <label>mocha</label>
-                    <br>
+                <input name="kind1" type="radio" value="mocha" id="kind1" required>
+                <label>mocha</label>
+                <br>
 
-                    <input name="kind" type="radio" value="drip coffee" required>
-                    <label>drip coffee</label>
-                    <br>
-                    <input name="kind" type="radio" value="iced coffee" required>
-                    <label>iced coffee</label>
-                    <br>
-                    <input name="kind" type="radio" value="vanilla latte" required>
-                    <label>vanilla latte</label>
-                </div>
+                <input name="kind2" type="radio" value="drip coffee" id="kind2" checked>
+                <label>drip coffee</label>
+                <br>
+                <input name="kind3" type="radio" value="iced coffee" id="kind3" checked>
+                <label>iced coffee</label>
+                <br>
+                <input name="kind4" type="radio" value="vanilla latte" id="kind4" checked>
+                <label>vanilla latte</label>
+
             </fieldset>
-            <fieldset id="size">
+            <fieldset>
                 <label for="size">choose size of cup</label>
                 <div>
-                    <input name="size" type="radio" value="small" required>
+                    <input name="size" type="radio" value="small" id="size" checked>
                     <label>small</label>
                     <br>
-                    <input name="size" type="radio" value="medium" required>
+                    <input name="size2" type="radio" value="medium" id="size2" checked>
                     <label>medium</label>
                     <br>
-                    <input name="size" type="radio" value="large" required>
+                    <input name="size3" type="radio" value="large" id="size3" checked>
                     <label>large</label>
                 </div>
             </fieldset>
@@ -118,12 +118,12 @@
             </fieldset>
             <img src="images/latte.png" alt="latte image" width="450" height="320">
             <section>
-                <input type="reset" value="reset" id="reset">
+                <input type="reset" value="reset" id="r">
                 <input type="submit" value="submit" id="s">
             </section>
         </form>
     </section>
-    <section id="msgSection">
+    <section id="msgSection" class="hide">
         <p id="myMsg"></p>
     </section>
     <footer>

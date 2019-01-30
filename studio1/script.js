@@ -2,6 +2,28 @@
 console.log('reading js');
 
 document.querySelector('#s').addEventListener('click', processForm);
+document.querySelector('#r').addEventListener('click', resetForm);
+var response;
+var submit = document.querySelector('input[type="submit"]');
+var myMsg = document.querySelector('#myMsg');
+
+//querySelectorAll returns all matches into an array
+var email = document.querySelector("#email");
+var phone = document.querySelector("#phone");
+var mail = document.querySelector("#mail");
+
+//add events for the radio buttons
+kind.addEventListener("click", kindSelected);
+size.addEventListener("click", sizeSelected);
+
+
+function kindSelected() {
+    response = 'kind';
+}
+
+function sizeSelected() {
+    response = 'size';
+}
 
 //define process function
 function processForm(evt) {
@@ -25,14 +47,19 @@ function processForm(evt) {
     var noun6 = document.querySelector('#noun6').value;
 
     var myMsg = document.querySelector('#myMsg');
+    var msgSection = document.querySelector('#msgSection');
     // message //
     myMsg.innerHTMl = 'It was Sunday afternoon. She was sitting alone ' + verbing + ' a ' + noun1 + ' at her local coffee shop named ' +
         noun2 + '. The door opens. He walks in. He was ' + adjective1 + ' and ' + adjective2 + '. He is carrying a ' + noun3 +
         ' He must be a ' + profession + ' she thought to herself. He walks up to the barista and orders ' + kind + ' size ' + size +
-        ' ,dash of ' + noun8 ' and add of ' + noun7 '. He notices her sitting in the corner, and sits on a ' + noun4 + ' beside her. He gazes her in the ' +
-        facialfeature + ' and ' + verb ' . It was love at first ' + noun ' . He wonders what she ordered. A ' + adjective3 +
+        ' ,dash of ' + noun8 + ' and add of ' + noun7 + '. He notices her sitting in the corner, and sits on a ' + noun4 + ' beside her. He gazes her in the ' +
+        facialfeature + ' and ' + verb + ' . It was love at first ' + noun + ' . He wonders what she ordered. A ' + adjective3 +
         ' smell was coming from her cup. He realised she ordered the same drink! They were match made in ' + noun6 + '.';
 
     // prevent page from reloading
     evt.preventDefault();
+}
+
+function resetForm() {
+    msgSection.className = 'hide';
 }
