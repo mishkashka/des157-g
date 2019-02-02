@@ -17,115 +17,31 @@
     <section id="formSection">
 
         <form>
-            <fieldset>
-                <label for="verbing">write a verb</label>
-                <input type="text" name="write a verb" id="verbing" required>
-            </fieldset>
-            <fieldset>
-                <label for="noun1">write a noun</label>
-                <input type="text" name="write a noun" id="noun1" required>
-            </fieldset>
-            <fieldset>
-                <label for="noun2">write a noun</label>
-                <input type="text" name="write a noun" id="noun2" required>
-            </fieldset>
-            <fieldset>
-                <label for="adjective1">write a adj</label>
-                <input type="text" name="write an adjective" id="adjective1" required>
-            </fieldset>
-            <fieldset>
-                <label for="adjective2">write a adj</label>
-                <input type="text" name="write an adjective" id="adjective2" required>
-            </fieldset>
-            <fieldset>
-                <label for="noun3">write a noun</label>
-                <input type="text" name="write a noun" id="noun3" required>
-            </fieldset>
-            <fieldset>
-                <label for="profession">write a profession</label>
-                <input type="text" name="name a profession" id="profession" required>
-            </fieldset>
             <!-- list coffee types -->
             <fieldset>
-                <label for="kind">choose your coffee drink </label>
-
-                <input name="kind" type="radio" value="cappuccino" id="kind" required>
-                <label>cappuccino</label>
-                <br>
-
-                <input name="kind1" type="radio" value="mocha" id="kind1" required>
-                <label>mocha</label>
-                <br>
-
-                <input name="kind2" type="radio" value="drip coffee" id="kind2" checked>
-                <label>drip coffee</label>
-                <br>
-                <input name="kind3" type="radio" value="iced coffee" id="kind3" checked>
-                <label>iced coffee</label>
-                <br>
-                <input name="kind4" type="radio" value="vanilla latte" id="kind4" checked>
-                <label>vanilla latte</label>
-
+                <label for="noun8"> What coffee drink would you like?</label>
+                <input type="text" name="coffee type" id="noun8">
             </fieldset>
             <fieldset>
-                <label for="size">choose size of cup</label>
-                <div>
-                    <input name="size" type="radio" value="small" id="size" checked>
-                    <label>small</label>
-                    <br>
-                    <input name="size2" type="radio" value="medium" id="size2" checked>
-                    <label>medium</label>
-                    <br>
-                    <input name="size3" type="radio" value="large" id="size3" checked>
-                    <label>large</label>
-                </div>
+                <label for="noun7"> In what size of cup?</label>
+                <input type="text" name="size of cup" id="noun7">
             </fieldset>
             <fieldset>
-                <label for="noun8"> milk of choice</label>
-                <input type="text" name="milk of choice" id="noun8" required>
-            </fieldset>
-            <fieldset>
-                <label for="noun7"> add-in to your drink</label>
-                <input type="text" name="add-in to your drink" id="noun7" required>
-            </fieldset>
-            <fieldset>
-                <label for="noun4">write a noun</label>
-                <input type="text" name="write a noun" id="noun4" required>
-            </fieldset>
-            <fieldset>
-                <label for="facialfeature"> write a facial feature </label>
-                <input type="text" name="name a facial feature" id="facialfeature" required>
-            </fieldset>
-            <fieldset>
-                <label for="verb">write a verb</label>
-                <input type="text" name="write a verb" id="verb" required>
-            </fieldset>
-            <!-- it was a love at first ___ -->
-            <fieldset>
-                <label for="noun">write a noun</label>
-                <input type="text" name="write a noun" id="noun" required>
-            </fieldset>
-            <fieldset>
-                <label for="adjective3">write a adj</label>
-                <input type="text" name="write an adjective" id="adjective3" required>
-            </fieldset>
-            <!-- coffee type as the one before-->
-
-            <!-- they were match made in ____-->
-            <fieldset>
-                <label for="noun6">write a noun</label>
-                <input type="text" name="write a noun" id="noun6" required>
+                <label for="noun4"> What kind of milk would you like? </label>
+                <input type="text" name="milk" id="noun4">
             </fieldset>
             <img src="images/latte.png" alt="latte image" width="450" height="320">
             <section>
-                <input type="reset" value="reset" id="r">
-                <input type="submit" value="submit" id="s">
+                <input type="reset" value="reset" id="reset">
+                <input type="submit" value="submit" id="submit">
             </section>
         </form>
+        <div id="msgSection">
+            <p id="myMsg">hi</p>
+        </div>
     </section>
-    <section id="msgSection" class="hide">
-        <p id="myMsg"></p>
-    </section>
+
+
     <footer>
         <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
         <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
