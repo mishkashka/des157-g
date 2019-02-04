@@ -1,0 +1,27 @@
+html {
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    font: Helvetica, sans-serif;
+}
+
+p {
+    font: georgia, sans-serif;
+    margin: 20px;
+        line-height: 1.6;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+
+.bib {
+  text-align: center;
+    font-size: 1em;
+}
+.bib>ol{
+  text-align: left;
+  margin: 10px;
+  font-size: .8em;
+      line-height: 1.6;
+}
