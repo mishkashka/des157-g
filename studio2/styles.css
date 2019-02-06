@@ -7,45 +7,40 @@ body {
 }
 
 section {
+
     display: flex;
     flex-wrap: wrap;
     margin: 1em;
     justify-content: center;
     background-color: #ffc125;
     border-style: dotted;
-    border-color: 	#32adad;
-}
-
-@media only screen and (min-width:769px) {
-    img {
-      display:inline;
-    }
-    h1 {
-        font-family: 'Luckiest Guy', cursive;
-        letter-spacing: 8px;
-        color: #fffff5;
-        text-align: center;
-        font-size: 5em;
-    }
-}
-
-img {
-  dislay:block;
-    width: 100%;
+    border-color: #32adad;
 }
 
 h1 {
+    padding-top: 1em;
+    text-align: center;
     font-family: 'Luckiest Guy', cursive;
     letter-spacing: 8px;
     color: #fffff5;
-    text-align: justify;
-    padding-left: .5em;
     font-size: 5em;
 }
 
+
+/*#overlay p{
+  position: absolute;
+  color:#005555;
+}*/
+
+@media only screen and (min-width:769px) {
+    img {
+        display: inline;
+    }
+}
+
 img {
-    background-color: dodgerblue;
-    position: relative;
+    display: block;
+    width: auto;
 }
 
 footer {
@@ -63,4 +58,37 @@ footer>a {
     letter-spacing: 5px;
     margin: 2em;
     text-decoration: none;
+}
+
+#overlay {
+  border-radius: 1em;
+    background-color: #fffff5;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 75%;
+    justify-content: center;
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    /*display: none;*/
+}
+p{
+  text-align: center;
+  margin-top: 10%;
+}
+#overlay button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#close {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    color: #005555;
+}
+
+#close {
+    cursor: pointer;
 }
