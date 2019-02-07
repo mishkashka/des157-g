@@ -11,15 +11,15 @@ var mint = document.querySelector('#mint');
 
 airpod.addEventListener('click', function() {
     overlay.style.display = 'block';
-    p.innerHTML='I just bought Rocket airpods and they got lost in the mail';
+    p.innerHTML = 'Items I need for class #1: I often listen to music or audiobooks on the bus ride to campus.';
 })
 lip.addEventListener('click', function() {
     overlay.style.display = 'block';
-      p.innerHTML='I just bought Rocket airpods and they got lost in the mail';
+    p.innerHTML = 'Items I need for class #2: I make sure to apply lipbalm to keep my lips hydrated during this cold and dry winter.';
 })
 mint.addEventListener('click', function() {
     overlay.style.display = 'block';
-      p.innerHTML='I just bought Rocket airpods and they got lost in the mail';
+    p.innerHTML = 'Items I need for class #3: If I am not drinking coffee, sucking on this Starbucks mint helps me stay up during class.';
 })
 
 close.addEventListener('click', function() {

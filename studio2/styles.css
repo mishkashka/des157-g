@@ -36,6 +36,18 @@ h1 {
     img {
         display: inline;
     }
+    #overlay {
+      border-radius: 1em;
+        background-color: #fffff5;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 95%;
+        justify-content: center;
+        position: absolute;
+        width: 50%;
+        height: 20%;
+        /*display: none;*/
+    }
 }
 
 img {
@@ -73,9 +85,12 @@ footer>a {
     /*display: none;*/
 }
 p{
+  padding-left:.5em;
+  padding-right: .5em;
   text-align: center;
-  margin-top: 12%;
+  margin-top: 10%;
   color:#005555;
+  list-style-position: 1.6;
 }
 #overlay button {
     display: block;
