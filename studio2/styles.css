@@ -7,7 +7,6 @@ body {
 }
 
 section {
-
     display: flex;
     flex-wrap: wrap;
     margin: 1em;
@@ -22,7 +21,7 @@ h1 {
     text-align: center;
     font-family: 'Luckiest Guy', cursive;
     letter-spacing: 8px;
-    color: 	#eeb4b4;
+    color: #eeb4b4;
     font-size: 5em;
 }
 
@@ -37,7 +36,7 @@ h1 {
         display: inline;
     }
     #overlay {
-      border-radius: 1em;
+        border-radius: 1em;
         background-color: #fffff5;
         transform: translate(-50%, -50%);
         left: 50%;
@@ -73,7 +72,7 @@ footer>a {
 }
 
 #overlay {
-  border-radius: 1em;
+    border-radius: 1em;
     background-color: #fffff5;
     transform: translate(-50%, -50%);
     left: 50%;
@@ -82,16 +81,18 @@ footer>a {
     position: absolute;
     width: 40%;
     height: 20%;
-    /*display: none;*/
+    display: none;
 }
-p{
-  padding-left:.5em;
-  padding-right: .5em;
-  text-align: center;
-  margin-top: 10%;
-  color:#005555;
-  list-style-position: 1.6;
+
+p {
+    padding-left: .5em;
+    padding-right: .5em;
+    text-align: center;
+    margin-top: 10%;
+    color: #005555;
+    list-style-position: 1.6;
 }
+
 #overlay button {
     display: block;
     margin-left: auto;
