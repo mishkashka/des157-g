@@ -90,7 +90,7 @@ p {
     text-align: center;
     margin-top: 10%;
     color: #005555;
-    list-style-position: .5em;
+    line-height: 1.2em;
 }
 
 #overlay button {
