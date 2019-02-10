@@ -40,7 +40,7 @@ p {
 }
 .bib>ol{
   text-align: left;
-  margin: 5px;
+  margin: 1em;
   font-size: .8em;
-      line-height: 1.6;
+      line-height: 2px;
 }

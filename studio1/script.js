@@ -15,7 +15,7 @@ function processForm(evt) {
     var myMsg = document.querySelector('#myMsg');
     var msgSection = document.querySelector('#msgSection');
     // message //
-    myMsg.innerHTML = 'Your orderdered a ' + noun8 + ' in size ' + noun7 + ' with dash of ' + noun4 + '. Thank you for your order!';
+    myMsg.innerHTML = 'Your ordered a ' + noun8 + ' in size ' + noun7 + ' with dash of ' + noun4 + '. Thank you for your order!';
 
     msgSection.className = 'show';
     console.log('texxx');
