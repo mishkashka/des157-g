@@ -19,6 +19,13 @@ h2 a{
       font: Helvetica, sans-serif;
       margin-bottom:20px;
   }
+  h3{
+    font: georgia, sans-serif;
+    margin: 20px;
+        line-height: 1.6;
+        padding-left: 10px;
+        padding-right: 10px;
+  }
 article{
     margin-left:5%;
     margin-right: 5%;
@@ -32,3 +39,14 @@ article{
           padding-left: 10px;
           padding-right: 10px;
   }
+  p a{
+    text-decoration: none;
+    color: inherit;
+
+  }
+img{
+  margin-top: 2%;
+  margin-bottom: 2%;
+display: inline;
+margin-left:10%;
+}
