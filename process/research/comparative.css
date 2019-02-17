@@ -2,7 +2,6 @@ html {
     text-align: justify;
     background-color: #cfe6de;
 }
-
 h2 {
     font-size: 1em;
     margin: 2em;
@@ -25,34 +24,36 @@ h1 {
 
 h3 {
     font: georgia, sans-serif;
-    margin: 20px;
+    padding-top: 20px;
     line-height: 1.6;
-    padding-left: 10px;
+    padding-left: 10%;
     padding-right: 10px;
 }
 
 article {
+
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
 }
-
-p {
-    font: georgia, sans-serif;
-    margin: 20px;
-    line-height: 1.6;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 p a {
     text-decoration: none;
     color: inherit;
+    padding-bottom: -20px;
+}
+p {
+    font: georgia, sans-serif;
+    align-items: center;
+    margin-left:auto;
+    margin-right: auto;
+    line-height: 1.6;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 img {
     margin-top: 2%;
-    margin-bottom: 2%;
-    display: inline;
-    margin-left: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
