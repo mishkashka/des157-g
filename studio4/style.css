@@ -1,0 +1,22 @@
+@media only screen and (min-width: 769px) {
+   /* declarations */
+}
+#table{
+  position: absolute;
+}
+footer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: #005555;
+    bottom: 0;
+    padding: 1em;
+}
+
+footer>a {
+    color: #fffff5;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 5px;
+    margin: 2em;
+    text-decoration: none;
+}
