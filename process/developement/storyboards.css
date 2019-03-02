@@ -22,12 +22,28 @@ h1 {
     font: Helvetica, sans-serif;
     margin-bottom: 20px;
 }
-#story{
-  position: relative;
-}
-img {
-  position: absolute;
-    margin-top: 5%;
-    margin-left: 23%;
 
+#story {
+    position: relative;
+    left: 10%;
+    right: 10%;
+    width: 700;
+    height: 600;
+}
+
+img {
+    margin-top: 5%;
+    left: 30%;
+    margin-left: 13%;
+}
+
+p {
+    position: relative;
+    margin-top: 2em;
+    left: 4%;
+    right: 50%;
+    margin-right: 35%;
+    margin-left: 9%;
+    line-height: 1.6;
+    margin-bottom: 10%;
 }
