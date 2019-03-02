@@ -1,0 +1,33 @@
+html {
+    text-align: justify;
+    background-color: #cfe6de;
+}
+
+h2 {
+    font-size: 1em;
+    margin: 2em;
+}
+
+h2 a {
+    text-decoration: none;
+    color: inherit;
+    font: georgia, sans-serif;
+    outline-style: solid;
+    outline-width: thin;
+    padding: .5em;
+}
+
+h1 {
+    text-align: center;
+    font: Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+#story{
+  position: relative;
+}
+img {
+  position: absolute;
+    margin-top: 5%;
+    margin-left: 23%;
+
+}
