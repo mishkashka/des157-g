@@ -1,35 +1,29 @@
-<!doctype html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>misheel-studo4</title>
-    <link href="style.css" rel="stylesheet">
+    <title>practice roound for studio 4</title>
+    <!--normalizes css-->
     <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link href="style.css" rel="stylesheet" />
 </head>
 
 <body>
-
-    <section id="space">
-
-<img src="images/room.png " alt="bedroom">
-          <img src="images/bed.png " alt="bedroom">
-
-
+    <section id="bedroom">
+        <div class="grow">
+            <img src="images/flatroom.svg" width="700" alt="isometric room" id="myroom" class="show" />
+        </div>
+        <div id="bedroomInfo" class="hide">
+            <p>
+                This is how you clean your room.</p>
+            <div id="bedroomClose">
+                &otimes;
+            </div>
+        </div>
     </section>
-    <footer>
-        <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
-        <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
-    </footer>
-    <!-- Include jQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 
-    <!-- Include jQuery Popup Overlay -->
-    <script src="https://cdn.jsdelivr.net/gh/vast-engineering/jquery-popup-overlay@2/jquery.popupoverlay.min.js">
-    </script>
+
     <script src="script.js"></script>
 </body>
+
 </html>

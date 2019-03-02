@@ -1,26 +1,57 @@
-@media only screen and (min-width: 769px) {
-   /* declarations */
-
+* {
+    /* means all elements are at 0*/
+    margin: 0;
+    padding: 0;
 }
-body{
 
-   }
-#table{
+#bedroom {
+    position: relative;
+    width: 900px;
+    height: 900px;
+    margin: 10% auto;
+    background-color: beige;
+}
+
+img {
+    position: absolute;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+img:hover {
+    transform: rotate(45deg);
+    /* hover and rotates to 45 degrees*/
+}
+
+#myroom {
+    left: 100px;
+    top: 100px;
+}
+
+.grow:hover {
+    -webkit-transform: scale(.5);
+    -ms-transform: scale(.5);
+    transform: scale(1);
+}
+
+#bedroomInfo, #bedroomClose{
   position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: pink;
 }
-footer {
-    position: fixed;
-    width: 100%;
-    text-align: center;
-    background-color: #005555;
-    bottom: 0;
-    padding: 1em;
+p{
+
+  text-align: center;
+text-decoration: overline;
+
+}
+.show{
+  display: block;
 }
 
-footer>a {
-    color: #fffff5;
-    font-family: 'Luckiest Guy', cursive;
-    letter-spacing: 5px;
-    margin: 2em;
-    text-decoration: none;
+.hide{
+  display:none;
 }
