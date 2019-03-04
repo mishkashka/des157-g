@@ -1,0 +1,45 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family:Helvetica;
+  font-size:100%;
+  overflow:hidden;
+}
+
+nav {
+  position:fixed;
+  top:0px;
+  left:0px;
+  font-size:1.5em;
+}
+
+li {
+  list-style-type:none;
+}
+
+a {
+  border: 2px #333 solid;
+  border-radius:5px;
+  width:1in;
+  padding:16px;
+  margin-bottom:4px;
+  color:#333;
+  text-decoration: none;
+  display:inline-block;
+}
+
+a:hover {
+  background-color:gray;
+}
+.page {
+  height: 50%;
+}
+
+.hidden {
+  display:none;
+}
+#fw1{
+  width: 50%;
+}
