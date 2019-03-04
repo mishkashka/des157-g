@@ -1,4 +1,3 @@
-
 html {
     text-align: justify;
     background-color: #cfe6de;
@@ -23,7 +22,8 @@ h1 {
     font: Helvetica, sans-serif;
     margin-bottom: 20px;
 }
-img{
-  width: 90%;
-  margin-left: 5%;
+
+img {
+    width: 90%;
+    margin-left: 5%;
 }
