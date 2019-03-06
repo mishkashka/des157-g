@@ -1,0 +1,33 @@
+html {
+    text-align: justify;
+    background-color: #cfe6de;
+}
+
+header {
+    margin: 5%;
+}
+
+h1 {
+    text-align: center;
+    font: Helvetica, sans-serif;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+article {
+    position: relative;
+    left: 20%;
+    top: 20%;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+P {
+    font: georgia, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    padding-right: 40%;
+}
