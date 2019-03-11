@@ -1,5 +1,6 @@
 'use strict';
 console.log('reading js');
+var pages = document.querySelectorAll(".page");
 
 var banana = document.querySelector('#banana');
 var bananaInfo = document.querySelector('#bananaInfo');
@@ -22,6 +23,20 @@ var shirtInfo = document.querySelector('#shirtInfo');
 var shirtClose = document.querySelector('#shirtClose');
 
 
+for (let page of pages) {
+  page.addEventListener("click", function(event) {
+    // recall event.target (triggering event) vs event.currentTarget(=this, current element running handler, usually on bubbling)
+    // only advances if next sibling element is hidden, so we don't hide the last page
+    if (event.currentTarget.nextElementSibling.classList.contains("hidden")) {
+      // hides the current page
+      event.currentTarget.classList.add("hidden");
+      // takes action on the next sibling element, vs nextSibling which may return text/whitespace nodes
+      event.currentTarget.nextElementSibling.classList.remove("hidden");
+      console.log('displaying', event.currentTarget.nextElementSibling.id);
+      // another approach might directly change element.style.display
+    }
+  });
+}
 
 banana.addEventListener('click', function() {
     console.log('click on banana');

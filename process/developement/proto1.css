@@ -3,6 +3,36 @@
     padding: 0;
 }
 
+.page{
+  height:100%;
+}
+button{
+background-color: #e55757; /* Green */
+border: none;
+color: white;
+padding: 20px;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 2%;
+position: absolute;
+bottom:5%;
+right:10%;
+}
+#page1, #page2{
+  position: relative;
+  background-color: beige;
+  width: 900px;
+  height: 900px;
+  margin: 10% auto;
+}
+h2{
+  position: absolute;
+  bottom:10%;
+  right:15%;
+}
 #bedroom {
     position: relative;
     background-color: beige;
@@ -132,6 +162,9 @@
 
 .hide {
     display: none;
+}
+.hidden{
+  display: none;
 }
 
 footer {
