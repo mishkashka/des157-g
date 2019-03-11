@@ -36,6 +36,7 @@ journal.addEventListener('click', function() {
     console.log('click on journal');
     journalInfo.classList.replace('hide', 'show');
     journalClose.addEventListener('click', function() {
+
         journalInfo.classList.replace('show', 'hide');
         journal.classList.replace('show', 'hide');
     })
