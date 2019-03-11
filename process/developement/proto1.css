@@ -35,7 +35,7 @@ button {
     height: 700px;
     position: relative;
     margin-left: 23%;
-    margin-bottom: 2%;
+    margin-top: .5%;
     /*  margin: 0% 10% 15% 15%;*/
     /*margin-bottom:30%;
 */
@@ -54,7 +54,7 @@ h2 {
     width: 700px;
     height: 700px;
     margin-left: 23%;
-    margin-bottom: 2%;
+    margin-top: .5%;
 }
 
 #myroom {
