@@ -120,6 +120,7 @@ h2 {
     margin-top: 120px;
     padding-left: 2em;
     float: left;
+    height: 25%;
     width: 25%;
     background-color: pink;
 }
