@@ -56,9 +56,46 @@ h2 {
     margin-left: 14%;
     margin-top: 20%;
 }
-#displayRoom2{
-  margin-left:-.5%
+
+.hoverover {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -37.5%;
 }
+
+.hover2 {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.hoverover:hover .hover2 {
+    opacity: 0.3;
+}
+
+.hoverbox {
+    transition: .5s ease;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: 50%;
+    margin-top: -50%;
+}
+
+.hoverover:hover .hoverbox {
+    opacity: 1;
+}
+
+.text {
+    color: black;
+    font-size: 16px;
+}
+
+#displayRoom2 {
+    margin-left: -.5%
+}
+
 #displayRoom3 {
     margin-left: 32%;
     margin-top: -12%;
