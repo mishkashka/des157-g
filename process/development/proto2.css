@@ -8,8 +8,7 @@
 }
 
 body {
-    overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow: hidden; */
 }
 
 button {
@@ -64,13 +63,14 @@ h2 {
 }
 
 .hover2 {
-    opacity: 1;
-    transition: .5s ease;
+    opacity: .6;
+    transition: .2s ease;
     backface-visibility: hidden;
+    color: black;
 }
 
 .hoverover:hover .hover2 {
-    opacity: 0.3;
+    opacity: 1;
 }
 
 .hoverbox {
@@ -79,6 +79,7 @@ h2 {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    background-color: white;
     margin-left: 50%;
     margin-top: -50%;
 }
@@ -103,6 +104,7 @@ h2 {
 
 #sidebar {
     position: fixed;
+    top:0;
     right: 150px;
     height: 100%;
 }
@@ -122,8 +124,7 @@ h2 {
     background-color: beige;
     width: 700px;
     height: 700px;
-    margin-left: 23%;
-    margin-top: .5%;
+    margin: auto;
 }
 
 #myroom {
@@ -160,7 +161,11 @@ h2 {
     bottom: 34%;
     right: 12%;
 }
-
+#closedMacbook{
+  position: absolute;
+  bottom: 34%;
+  right: 12%;
+}
 #plant {
     position: absolute;
     cursor: pointer;
@@ -175,6 +180,12 @@ h2 {
     right: 79%;
 }
 
+#closet{
+  position: absolute;
+
+  bottom: 32.5%;
+  right: 75%;
+}
 #bananaInfo, #journalInfo, #macbookInfo, #plantInfo, #shirtInfo {
     position: absolute;
     left: 20%;
@@ -250,9 +261,6 @@ h2 {
     display: none;
 }
 
-.hidden {
-    display: none;
-}
 
 footer {
     position: fixed;
