@@ -158,7 +158,11 @@ h2 {
     bottom: 27%;
     right: 50%;
 }
-
+#closedBook{
+position: absolute;
+bottom: 29%;
+right: 21%
+}
 #macbook {
     position: absolute;
     cursor: pointer;
@@ -170,6 +174,8 @@ h2 {
   bottom: 34%;
   right: 12%;
 }
+
+
 #plant {
     position: absolute;
     cursor: pointer;

@@ -106,6 +106,7 @@ function playJournal() {
     journalInfo.classList.replace('hide', 'show');
     journalClose.addEventListener('click', function() {
         journalInfo.classList.replace('show', 'hide');
+        closedBook.classList.replace('hide', 'show');
         journal.classList.replace('show', 'hide');
         checkIfDone();
         if (!journalClick){
