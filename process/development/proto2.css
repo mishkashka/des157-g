@@ -28,7 +28,7 @@ button {
     right: 10%;
 }
 
-#page1, #page2 {
+ #page2 {
     background-color: beige;
     width: 700px;
     height: 700px;
@@ -39,6 +39,10 @@ button {
     /*margin-bottom:30%;
 */
 }
+/* #page3{
+  display: flex;
+  flex-direction: row;
+} */
 
 h2 {
     position: absolute;
@@ -103,9 +107,9 @@ h2 {
 }
 
 #sidebar {
-    position: fixed;
+    position: absolute;
     top:0;
-    right: 150px;
+    right: -150px;
     height: 100%;
 }
 
