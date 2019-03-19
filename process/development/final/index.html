@@ -1,0 +1,113 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Final Prototype </title>
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <section class="page" id=page2>
+        <h2> Homepage </h2>
+        <article><p> Ready to Declutter?<br>
+Tip: Start small and organize the most important rooms first and work your way through the house. Even 15 minutes of decluttering can be beneficial to your health. By decluttering your house, your mind will feel free and you can focus on the important things in life (like yourself).</p>  </article>
+ <!-- Home Screen-->
+        <div id="displayRoom">
+<div class="hovers">
+            <img src="images/bedroom2.svg" width="250" alt="isometric myroom" id="displayRoom1" class="hover2" onClick="myFunction(this)" />
+          </div>
+
+
+            <div class="hoverover">
+                <img src="images/bedroom2.svg" width="250" alt="isometric myroom2" id="displayRoom2" class="hover2" />
+                <div class="hoverbox"> <div class="text"> Bathroom Not Available </div> </div>
+            </div>
+            <div class ="hoverover2">
+            <img src="images/bedroom2.svg" width="250" alt="isometric myroom3" id="displayRoom3" class="hover2" />
+            <div class="hoverbox"> <div class="text"> LivingRoom Not Available </div> </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="page hide" id=page3>
+        <!-- Bedroom Screen-->
+
+        <section id="bedroom">
+            <img src="images/bedroom2.svg" width="650" alt="isometric myroom" id="myroom"  />
+            <!-- onClick="goHome(this)" -->
+            <div id="sidebar"> </div>
+
+            <!-- clickable items -->
+            <section id="items">
+                <img src="images/banana.svg" width="60" alt="banana" id="banana" class="show , grow" />
+                <img src="images/journal.svg" width="70" alt="journal" id="journal" class="show , grow" />
+                <img src="images/closedbook.svg" width="35" alt="journalclosed" id="closedBook" class="hide" />
+                <img src="images/macbook.svg" width="90" alt="macbook" id="macbook" class="show , grow" />
+                <img src="images/macbookclose.svg" width="90" alt="macbookclosed" id="closedMacbook" class="hide" />
+                <img src="images/plant.svg" width="60" alt="plant" id="plant" class="show , grow" />
+                <img src="images/plantup.svg" width="35" alt="plantup" id="plantUp" class="hide" />
+                <img src="images/shirt.svg" width="90" alt="shirt" id="shirt" class="show , grow" />
+                <img src="images/closet.svg" width="121" alt="closet" id="closet" class="hide" />
+            </section>
+
+            <!-- information box -->
+            <section id="bananaInfo" class="hide">
+                <div class="image1"> <img src="images/banana.svg" width="150" alt="banana" /> </div>
+                <div class="image1p"> <h3>Zero Waste Movement</h3><p> <br>Clearing out space and living a clutter free minimalistic life is great! But as we toss things out, there is a chance we might toss few things that would have been better recycled, composted or donated.
+                <br> Getting rid of waste properly might be the next step, since we dont want our decluttering to become wastefulness.
+              <br> What is Zero Waste Movement? Followers of the Zero Waste Movement abide by the Refuse, Reduce, Reuse, Recycle, and Rot mantra. It is about reducing our impact on the health of the planet by reducing the waste they produce. Learn more about how to Declutter waste free here: <a href="https://www.livible.com/blog/zero-waste-movement-exposes-darkside-of-decluttering/" target="_blank">The Zero Waste Movement</a>.<br> And as for this Banana peel, Compost!</p> </div>
+                <div id="bananaClose"> &otimes; </div>
+            </section>
+
+            <section id="journalInfo" class="hide">
+                <div class="image2"> <img src="images/journal.svg" width="120" alt="journal" /> </div>
+                <div class="image2p"> <h3>Mental Clutter</h3>
+                  <p><br> Ever feel like your brain is on overload? Just as we declutter our physical space, our minds too need tidying up from time to time. When we get rid of our mental baggage, we are able to think more clearly and stay focused.
+                  <br> Journaling is one of many great mind decluttering techniques anybody can do. "Writing a journal allows you to manage anxiety and cope with depression, as it’s a healthy outlet to release bottled emotions," - states a University of Rochester Medical Center report. <br> Learn more ways to declutter your mind and free up some mental space: <a href="https://www.forbes.com/sites/nomanazish/2017/11/19/how-to-declutter-your-mind-10-practical-tips-youll-actually-want-to-try/#2db3fe7e24f1" target="_blank">How to Declutter Your Mind</a></p>.</div>
+                <div id="journalClose"> &otimes; </div>
+            </section>
+
+            <section id="macbookInfo" class="hide">
+                <div class="image3"> <img src="images/macbook.svg" width="120" alt="macbook" /> </div>
+                <div class="image3p"> <h3>Declutter Digital Space</h3>
+                  <p> <br>Organizing Digital Space can have a huge effect on your mental health. <br>
+                  Neglecting your online space can cause stress and anxiety. Fortunately, just like physical space, the digital space can be organized. Here is a simple  website to teach you: <a href="https://www.rewire.org/living/declutter-digital-life/" target="_blank">5 Ways to Declutter your Digital Space</a>.
+                <br><br>By making the efforts to clean up this area, you'll be able to focus better and reclaim your moments lost online! </p> </div>
+                <div id="macbookClose"> &otimes; </div>
+            </section>
+
+            <section id="plantInfo" class="hide">
+                <div class="image4"> <img src="images/plant.svg" width="120" alt="plant" /> </div>
+                <div class="image4p"> <h3> Considering Indoor Plants?</h3>
+                  <p><br> Living in a cluttered space can make you feel stressed, but have you considered getting an indoor plant? Plants are not just for home decoration, but they interact with your body, mind and home in ways that enhance the quality of life. Studies have also proven that indoor plants improve concentration and productivity by up to 15 percent! They reduce stress levels and boost your mood. This is why it’s a great idea to keep potted plants where you work as it will reduce stress and anxiety leading to better productivity.
+                <br>And If you have one, here is a guide on choosing the best plant for your room: <a href="https://mycityplants.com/pages/home-plant-guide" target="_blank">Home Plant Guide</a>
+              </p> </div>
+                <div id="plantClose"> &otimes; </div>
+            </section>
+
+            <section id="shirtInfo" class="hide">
+                <div class="image5"> <img src="images/shirt.svg" width="120" alt="shirt" /> </div>
+                <div class="image5p">  <h3>Organizing Clothes</h3>
+                  <p><br> The hardest part of decluttering the closet can be not knowing how to get started. Most people have multiple items in their closets that they rarely, or even never wear. But looking around at all the piles of clothing can leave a feeling of embarrasment and guilt, and that's a no-no, because it just makes you feel bad.<br>
+                  There are many methods to help with decluttering closets. The KonMari method is a system of simplifying and organizing your closet by getting rid of clothes that do not bring joy into your life. The positive thing to do is to let them go. But “letting go” doesn’t mean you can’t store or donate items! Here is the ultimate KonMari guide: <a href="https://www.livible.com/blog/ultimate-konmari-guide/" target="_blank">The Ultimate KonMari Guide</a>. You can also find KonMari's books here: <a href="https://konmari.com/collections/books" target="_blank">konmari.com</a>
+                </p> </div>
+                <div id="shirtClose"> &otimes; </div> </section>
+                <div id = "home">
+                        <button onClick="goHome(this)"> Home </button>
+                </div>
+
+        </section>
+
+
+    </div>
+    <footer>
+        <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
