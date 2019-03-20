@@ -11,22 +11,23 @@
 
 <body>
     <section class="page" id=page2>
-        <h2> Homepage </h2>
+        <h2> YOU CAN DECLUTTER </h2>
         <article><p> Ready to Declutter?<br>
-Tip: Start small and organize the most important rooms first and work your way through the house. Even 15 minutes of decluttering can be beneficial to your health. By decluttering your house, your mind will feel free and you can focus on the important things in life (like yourself).</p>  </article>
+Tip: Start small and organize the most important rooms first and work your way through the house. Even 15 minutes of decluttering can be beneficial to your health!
+<br> By decluttering your house, your mind will feel free and you can focus on the important things in life (like yourself).</p>  </article>
  <!-- Home Screen-->
         <div id="displayRoom">
-<div class="hovers">
-            <img src="images/bedroom2.svg" width="250" alt="isometric myroom" id="displayRoom1" class="hover2" onClick="myFunction(this)" />
+<div class="hovers" onClick="myFunction(this)"> <!--error is here -->
+            <img src="images/bedroom2.svg" width="250" alt="isometric myroom" id="displayRoom1" class="hover2"  />
           </div>
 
 
             <div class="hoverover">
-                <img src="images/bedroom2.svg" width="250" alt="isometric myroom2" id="displayRoom2" class="hover2" />
+                <img src="images/bathroom.svg" width="250" alt="isometric myroom2" id="displayRoom2" class="hover2" />
                 <div class="hoverbox"> <div class="text"> Bathroom Not Available </div> </div>
             </div>
             <div class ="hoverover2">
-            <img src="images/bedroom2.svg" width="250" alt="isometric myroom3" id="displayRoom3" class="hover2" />
+            <img src="images/kitchen.svg" width="250" alt="isometric myroom3" id="displayRoom3" class="hover2" />
             <div class="hoverbox"> <div class="text"> LivingRoom Not Available </div> </div>
         </div>
       </div>
@@ -42,14 +43,14 @@ Tip: Start small and organize the most important rooms first and work your way t
 
             <!-- clickable items -->
             <section id="items">
-                <img src="images/banana.svg" width="60" alt="banana" id="banana" class="show , grow" />
-                <img src="images/journal.svg" width="70" alt="journal" id="journal" class="show , grow" />
-                <img src="images/closedbook.svg" width="35" alt="journalclosed" id="closedBook" class="hide" />
-                <img src="images/macbook.svg" width="90" alt="macbook" id="macbook" class="show , grow" />
-                <img src="images/macbookclose.svg" width="90" alt="macbookclosed" id="closedMacbook" class="hide" />
-                <img src="images/plant.svg" width="60" alt="plant" id="plant" class="show , grow" />
+                <img src="images/banana.svg" width="60" alt="banana" id="banana" class="show , grow" onclick="playBanana()"/>
+                <img src="images/journal.svg" width="70" alt="journal" id="journal" class="show , grow" onclick="playJournal()"/>
+                <img src="images/closedbook.svg" width="35" alt="journalclosed" id="closedBook" class="hide"/>
+                <img src="images/macbook.svg" width="90" alt="macbook" id="macbook" class="show , grow" onclick ="playMacbook()"/>
+                <img src="images/macbookclose.svg" width="90" alt="macbookclosed" id="closedMacbook" class="hide"/>
+                <img src="images/plant.svg" width="60" alt="plant" id="plant" class="show , grow" onclick ="playPlant()"/>
                 <img src="images/plantup.svg" width="35" alt="plantup" id="plantUp" class="hide" />
-                <img src="images/shirt.svg" width="90" alt="shirt" id="shirt" class="show , grow" />
+                <img src="images/shirt.svg" width="90" alt="shirt" id="shirt" class="show , grow" onclick ="playShirt()"/>
                 <img src="images/closet.svg" width="121" alt="closet" id="closet" class="hide" />
             </section>
 
@@ -107,6 +108,8 @@ Tip: Start small and organize the most important rooms first and work your way t
         <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
         <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
     </footer>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
     <script src="script.js"></script>
 </body>
 

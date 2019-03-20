@@ -69,11 +69,11 @@ function myFunction(button) {
     });
 }
 
-banana.addEventListener('click', playBanana);
-journal.addEventListener('click', playJournal);
-macbook.addEventListener('click', playMacbook);
-plant.addEventListener('click', playPlant);
-shirt.addEventListener('click', playShirt);
+// banana.addEventListener('click', playBanana);
+// journal.addEventListener('click', playJournal);
+// macbook.addEventListener('click', playMacbook);
+// plant.addEventListener('click', playPlant);
+// shirt.addEventListener('click', playShirt);
 
 function checkIfDone() {
   itemCount += 1;
@@ -81,10 +81,13 @@ function checkIfDone() {
     //alert("Hi you're done");
     console.log("get inside the if statement alert box")
     // Maung Notes: Make sure to style & create the alert box as you want and center it or something and if you want a button on it, makesure to have a <button onclick = > or something like that
-    alert("You're finished here! Now is the time to offer yourself grace & compassion. Know that what you did or didn’t do before now DOES NOT have to determine how things will go as you move forward.")
-    // bedroom.innerHTML += '<div class="side1"> <img src = "images/banana.svg" width = "60" alt="banana" id="bananaSide" class="show, grow" /></div>'
-    checkIfDone.counterReset = "checkIfDone()";
+    setTimeout(function(){
+      console.log("fight me")
+    swal("You're finished here! Now is the time to offer yourself grace & compassion. Know that what you did or didn’t do before now DOES NOT have to determine how things will go as you move forward.");}, 1000);
 
+    // bedroom.innerHTML += '<div class="side1"> <img src = "images/banana.svg" width = "60" alt="banana" id="bananaSide" class="show, grow" /></div>'
+    //checkIfDone.counterReset = "checkIfDone()";
+    itemCount = 0;
   }
 }
 
@@ -95,9 +98,9 @@ function playBanana() {
         bananaInfo.classList.replace('show', 'hide');
         banana.classList.replace('show', 'hide');
         if (!bananaClick){
-        sideBar.innerHTML += '<div class="side1"> <img src = "images/banana.svg" width = "60" alt="banana" id="bananaSide" class="show, grow" /></div>'
-        checkIfDone();
-        bananaClick = true;
+          sideBar.innerHTML += '<div class="side1"> <img src = "images/banana.svg" width = "60" alt="banana" id="bananaSide" class="show, grow" /></div>'
+          checkIfDone();
+          bananaClick = true;
       }
 
       document.querySelector('#bananaSide').addEventListener('click',playBanana);

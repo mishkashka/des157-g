@@ -50,7 +50,8 @@ h2 {
   letter-spacing: 5px;
     position: absolute;
     top: 7%;
-    left: 10%;
+    left: 30%;
+    text-
 }
 article{
 background-color: blue;
@@ -103,7 +104,7 @@ left: 10%;
 }
 
 .hoverover:hover .hover2 {
-    opacity: 1;
+    opacity: .6;
 }
 
 .hoverbox {
@@ -128,7 +129,7 @@ left: 10%;
   margin-top: 21%;
 }
 .hoverover2:hover .hover2 {
-    opacity: 1;
+    opacity: .6;
 }
 
 .hoverover2:hover .hoverbox {
