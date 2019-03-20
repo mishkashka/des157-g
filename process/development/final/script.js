@@ -43,7 +43,7 @@ function goHome(currentBedroom) {
 }
 
 function myFunction(button) {
-  //console.log("this me", button.parentNode.id);
+
   let hidePageID;
   console.log(button);
   let stringVersion = "" + button;
@@ -51,7 +51,7 @@ function myFunction(button) {
 
   if (stringVersion.includes("Button")) {
     console.log("it should hit here ")
-    hidePageID = button.parentNode.id // Get the id of the parent so we can see which page we're on
+    hidePageID = button.parentNode.id // Get the id of the parent
   } else {
     hidePageID = button.parentNode.parentNode.id // Get the id of parent of the parent
   }
@@ -69,25 +69,14 @@ function myFunction(button) {
   });
 }
 
-// banana.addEventListener('click', playBanana);
-// journal.addEventListener('click', playJournal);
-// macbook.addEventListener('click', playMacbook);
-// plant.addEventListener('click', playPlant);
-// shirt.addEventListener('click', playShirt);
-
 function checkIfDone() {
   itemCount += 1;
   if (itemCount == 5) {
-    //alert("Hi you're done");
     console.log("get inside the if statement alert box")
-    // Maung Notes: Make sure to style & create the alert box as you want and center it or something and if you want a button on it, makesure to have a <button onclick = > or something like that
     setTimeout(function () {
-      console.log("fight me")
+    console.log("time")
       swal("You're finished here! Now is the time to offer yourself grace & compassion. Know that what you did or didn’t do before now DOES NOT have to determine how things will go as you move forward.");
     }, 1000);
-
-    // bedroom.innerHTML += '<div class="side1"> <img src = "images/banana.svg" width = "60" alt="banana" id="bananaSide" class="show, grow" /></div>'
-    //checkIfDone.counterReset = "checkIfDone()";
     itemCount = 0;
   }
 }
@@ -99,12 +88,10 @@ function playBanana() {
     bananaInfo.classList.replace('show', 'hide');
     banana.classList.replace('show', 'hide');
     if (!bananaClick) {
-      //sideBar.innerHTML += '<div class="side1"> <img src = "images/banana.svg" width = "60" alt="banana" id="bananaSide" class="show, grow" /></div>'
       let element = document.createElement("div") // Create a new div
       element.className = 'side1';
       element.innerHTML = '<img src = "images/banana.svg" width = "60" alt="banana" id="bananaSide" class="show, grow" />';
       document.querySelector("#sidebar").appendChild(element);
-      //document.body.appendChild(element); // add it to the body
       checkIfDone();
       bananaClick = true;
     }
@@ -123,7 +110,7 @@ function playJournal() {
     journal.classList.replace('show', 'hide');
 
     if (!journalClick) {
-      //sideBar.innerHTML += '<div class="side2"> <img src="images/journal.svg" width="70" alt="journal" id="journalSide" class="show , grow" /></div>'
+
       let element = document.createElement("div") // Create a new div
       element.className = 'side2';
       element.innerHTML = '<img src="images/journal.svg" width="70" alt="journal" id="journalSide" class="show , grow" />';
@@ -145,7 +132,6 @@ function playMacbook() {
     macbook.classList.replace('show', 'hide');
 
     if (!macbookClick) {
-      //sideBar.innerHTML += '<div class="side3"> <img src="images/macbook.svg" width="90" alt="macbook" id="macbookSide" class="show , grow" /></div>'
       let element = document.createElement("div") // Create a new div
       element.className = 'side3';
       element.innerHTML = '<img src="images/macbook.svg" width="90" alt="macbook" id="macbookSide" class="show , grow" />';
@@ -167,7 +153,6 @@ function playPlant() {
     plant.classList.replace('show', 'hide');
 
     if (!plantClick) {
-      //sideBar.innerHTML += '<div class="side4"> <img src="images/plant.svg" width="60" alt="plant" id="plantSide" class="show , grow" /></div>'
       let element = document.createElement("div") // Create a new div
       element.className = 'side4';
       element.innerHTML = '<img src="images/plant.svg" width="60" alt="plant" id="plantSide" class="show , grow" />';
@@ -189,7 +174,6 @@ function playShirt() {
     shirt.classList.replace('show', 'hide');
 
     if (!shirtClick) {
-      //sideBar.innerHTML +='<div class="side5"> <img src="images/shirt.svg" width="90" alt="shirt" id="shirtSide" class="show , grow" /></div>'
       let element = document.createElement("div") // Create a new div
       element.className = 'side5';
       element.innerHTML = '<img src="images/shirt.svg" width="90" alt="shirt" id="shirtSide" class="show , grow" />';
