@@ -338,13 +338,14 @@ footer {
     text-align: center;
     background-color: #005555;
     bottom: 0;
-    padding: 1em;
+    padding: 0.5em;
 }
 
 footer>a {
+  font-size: 11px;
     color: #fffff5;
     font-family: 'Luckiest Guy', cursive;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     margin: 2em;
     text-decoration: none;
 }
